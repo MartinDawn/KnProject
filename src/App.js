@@ -10,7 +10,8 @@ import ServicesPage from './component/ServicesPage/ServicesPage';
 
 function App() {
   return (
-    <Router>
+    
+    <Router basename="/KnProject">
       <Header />
 
       <Routes>
