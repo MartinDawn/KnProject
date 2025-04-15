@@ -1,0 +1,91 @@
+/* Slider container */
+.slider-container {
+    width: 100%;
+    margin: 0 auto;
+    position:fixed;
+  }
+  
+  /* Slide item */
+  .slide-image {
+    height: 800px; /* Điều chỉnh theo nhu cầu */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  /* Overlay màu (để chữ dễ đọc) */
+  .slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Overlay đen mờ */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Nội dung text */
+  .slide-content {
+    position: relative;
+    left : 15%;
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    padding: 2rem;
+    color: white;
+  }
+  
+  .slide-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+  
+  .slide-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+  
+  /* Nút CTA */
+  .slide-cta {
+    background-color: #E53935; /* Màu đỏ chủ đạo */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .slide-cta:hover {
+    background-color: #C62828; /* Đỏ đậm hơn */
+  }
+  
+  /* Custom dots (chấm điều hướng) */
+  .slick-dots {
+    bottom: 20px;
+  }
+  
+  .slick-dots li button:before {
+    color: white;
+    opacity: 0.5;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #E53935;
+    opacity: 1;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .slide-image {
+      height: 400px;
+    }
+    
+    .slide-content h2 {
+      font-size: 2rem;
+    }
+  }
