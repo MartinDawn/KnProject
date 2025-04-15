@@ -8,7 +8,6 @@ import ImageSlider from './component/ImageSlider/ImageSlider';
 import ChatBox from './component/ChatBox/ChatBox';
 import ServicesPage from './component/ServicesPage/ServicesPage';
 
-var i = true
 function App() {
   return (
     <Router>
