@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
   "name": "my-app",
   "homepage": "https://martindawn.github.io/KnProject/",
@@ -48,7 +48,7 @@
     "gh-pages": "^6.3.0"
   }
 }
-=======
+
 {
   "name": "my-app",
   "version": "0.1.0",
@@ -92,10 +92,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "https://MartinDawn.github.io/KnProject"
+
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
 }
->>>>>>> 20bba342a9cad1c991c737e347768fc78bb33589
+
