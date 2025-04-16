@@ -11,14 +11,16 @@ import ServicesPage from './component/ServicesPage/ServicesPage';
 function App() {
   return (
     
-    <Router basename="/KnProject">
+    <Router basename="/">
       <Header />
-
+      <ChatBox />
       <Routes>
         <Route path="/services" element={<ServicesPage />} />
+        <Route path="/" element={<ImageSlider/>} />
+        
       </Routes>
-      <ImageSlider></ImageSlider>
-      <ChatBox />
+      
+      
     </Router>
   );
 }

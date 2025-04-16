@@ -1,0 +1,6 @@
+include:
+  - _site
+  - assets
+  - css
+  - js
+  - images
